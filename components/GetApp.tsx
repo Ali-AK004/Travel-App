@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Button from '../../components/Buttons';
+import Button from './Buttons';
 
 const GetApp = () => {
   return (

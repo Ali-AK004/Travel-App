@@ -1,8 +1,8 @@
 import Hero from "@/components/Hero";
 import Camp from '@/components/Camp';
-import Features from "@/app/Features/page";
-import GetApp from "@/app/GetApp/page";
-import Guide from "@/app/Guide/page";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
 
 export default function Home() {
   return (
