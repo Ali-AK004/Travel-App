@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Ali-AK004/Travel-App",
+  "homepage": "https://Ali-AK004.github.io/Travel-App",
   "name": "brainwaive-app",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out -r https://github.com/Ali-AK004/Travel-App.git"
   },
   "dependencies": {
     "next": "^14.2.3",

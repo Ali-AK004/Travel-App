@@ -1,8 +1,8 @@
 "use client";
 
-import Link from 'next/link'
-import Image from 'next/image'
 import { NAV_LINKS } from '@/constants/index';
+import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 import Button from './Buttons';
 
@@ -14,8 +14,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="max-container padding-container py-5 flexBetween z-20 sticky top-0 shadow-lg bg-white">
-
+    <nav className="  w-full shadow-lg">
+      <div className="max-container padding-container py-5 flexBetween z-20 sticky top-0  bg-white">
       <Link href="/">
         <Image src="/hilink-logo.svg" alt="Logo" width={74} height={29} />
       </Link>
@@ -31,6 +31,8 @@ const Navbar = () => {
       </div>
 
       <Image src="/menu.svg" width={33} height={33} className="cursor-pointer block md:hidden" alt="menu-Logo" onClick={handleClick}/>
+        
+</div>
     </nav>
   )
 }
